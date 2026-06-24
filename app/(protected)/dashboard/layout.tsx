@@ -1,5 +1,5 @@
 import { requiredAuth } from "@/features/auth/actions";
-import { DashboardShell } from "@/features/dashboard/component/dashboard-shell";
+import { DashboardShell } from "@/features/dashboard/components/dashboard-shell";
 
 
 export default async function DashboardLayout({

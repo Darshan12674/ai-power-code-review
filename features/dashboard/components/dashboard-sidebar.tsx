@@ -3,8 +3,8 @@ import Link from "next/link";
 
 
 import { DASHBOARD_ROUTES } from "@/features/dashboard/lib/routes";
-import { DashboardNav } from "@/features/dashboard/component/dashboard-nav";
-import { SidebarUserButton } from "@/features/dashboard/component/sidebar-user-button"
+import { DashboardNav } from "@/features/dashboard/components/dashboard-nav";
+import { SidebarUserButton } from "@/features/dashboard/components/sidebar-user-button"
 import {
   Sidebar,
   SidebarContent,
