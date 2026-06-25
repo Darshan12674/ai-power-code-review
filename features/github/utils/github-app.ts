@@ -18,7 +18,7 @@ export function getGithubApp(){
 }
 
 export function getGithubInstallUrl(userId:string) {
-    const url = new URL(`https://github.com/apps/ChaiCode-Pr-Review-web/installation/new`)
+    const url = new URL(`https://github.com/apps/ChaiCode-Pr-Review-web/installations/new`)
     url.searchParams.set("state", userId)
     return url.toString()
 }
